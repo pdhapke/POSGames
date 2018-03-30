@@ -156,6 +156,7 @@
     <ClInclude Include="Pong.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SpaceInvaders.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -189,6 +190,12 @@
     <EmbeddedResource Include="ThreeCardMonte.resx">
       <DependentUpon>ThreeCardMonte.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="posgames_multisize.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
