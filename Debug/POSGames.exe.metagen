@@ -37,7 +37,7 @@ Class POSGames.GoGame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.Game1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(System.Drawing.Point*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

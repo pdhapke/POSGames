@@ -155,6 +155,8 @@ namespace POSGames {
 			this->Text = L"POS GAMES MAIN WINDOW";
 			this->ResumeLayout(false);
 			this->PerformLayout();
+			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+			
 
 		}
 #pragma endregion
@@ -164,36 +166,42 @@ namespace POSGames {
 		this->Hide(); 
 		POSGames::Game1 Game1WindowObject(this->Location);
 		Game1WindowObject.ShowDialog();
+		this->Location = Game1WindowObject.Location; 
 		this->Show(); 
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
 		POSGames::GoGame GoGameWindowObject(this->Location);
 		GoGameWindowObject.ShowDialog();
+		this->Location = GoGameWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
 		POSGames::Memory MemoryWindowObject(this->Location);
 		MemoryWindowObject.ShowDialog();
+		this->Location = MemoryWindowObject.Location; 
 		this->Show();
 	}
 	private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
 		POSGames::ThreeCardMonte ThreeCardMonteWindowObject(this->Location);
 		ThreeCardMonteWindowObject.ShowDialog();
+		this->Location = ThreeCardMonteWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
 		POSGames::SpaceInvaders SpaceInvadersWindowObject(this->Location);
 		SpaceInvadersWindowObject.ShowDialog();
+		this->Location = SpaceInvadersWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
 		POSGames::Pong PongWindowObject(this->Location);
 		PongWindowObject.ShowDialog();
+		this->Location = PongWindowObject.Location;
 		this->Show();
 }
 };

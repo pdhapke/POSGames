@@ -23,6 +23,7 @@ namespace POSGames {
 			//
 			
 			
+			
 		}
 
 	protected:
@@ -31,7 +32,7 @@ namespace POSGames {
 		/// </summary>
 		~Game1()
 		{
-			
+			 
 			if (components)
 			{
 				delete components;
