@@ -15,12 +15,14 @@ namespace POSGames {
 	public ref class Game1 : public System::Windows::Forms::Form
 	{
 	public:
-		Game1(void)
+		Game1(Point p)
 		{
-			InitializeComponent();
+			InitializeComponent(p);
 			//
 			//TODO: Add the constructor code here
 			//
+			
+			
 		}
 
 	protected:
@@ -29,6 +31,7 @@ namespace POSGames {
 		/// </summary>
 		~Game1()
 		{
+			
 			if (components)
 			{
 				delete components;
@@ -45,6 +48,7 @@ namespace POSGames {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
+		
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
@@ -52,8 +56,9 @@ namespace POSGames {
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(void)
+		void InitializeComponent(Point p)
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Game1::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
@@ -122,8 +127,15 @@ namespace POSGames {
 			this->Controls->Add(this->label1);
 			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Game1";
+			
+			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+			
+			this->Location = p;
+			
+			this->TopMost = true;
 			this->Text = L"Game1";
 			this->Load += gcnew System::EventHandler(this, &Game1::Game1_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -132,6 +144,8 @@ namespace POSGames {
 
 		}
 #pragma endregion
+
+
 	private: System::Void Game1_Load(System::Object^  sender, System::EventArgs^  e) {
 
 	}
@@ -140,7 +154,7 @@ namespace POSGames {
 	private: System::Void textBox2_KeyDown(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e) {
 		if (e->KeyCode == Keys::Enter) {
 			if (Convert::ToDouble(textBox2->Text) == 5) {
-				textBox1->Text += "\r\n YOU GUESSED CORRECTLY!";
+				textBox1->Text += "\r\n YOU GUESSED CORRECTLY!!";
 			}
 			else {
 				textBox1->Text += "\r\n Try again...";

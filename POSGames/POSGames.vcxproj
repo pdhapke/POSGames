@@ -135,15 +135,35 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game1.cpp" />
+    <ClCompile Include="GoGame.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Pong.cpp" />
+    <ClCompile Include="SpaceInvaders.cpp" />
+    <ClCompile Include="ThreeCardMonte.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="GoGame.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pong.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SpaceInvaders.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="MainWindow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ThreeCardMonte.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -151,8 +171,23 @@
     <EmbeddedResource Include="Game1.resx">
       <DependentUpon>Game1.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GoGame.resx">
+      <DependentUpon>GoGame.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memory.resx">
+      <DependentUpon>Memory.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pong.resx">
+      <DependentUpon>Pong.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpaceInvaders.resx">
+      <DependentUpon>SpaceInvaders.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThreeCardMonte.resx">
+      <DependentUpon>ThreeCardMonte.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
