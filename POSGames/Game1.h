@@ -15,9 +15,9 @@ namespace POSGames {
 	public ref class Game1 : public System::Windows::Forms::Form
 	{
 	public:
-		Game1(Point p)
+		Game1(void)
 		{
-			InitializeComponent(p);
+			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -57,7 +57,7 @@ namespace POSGames {
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(Point p)
+		void InitializeComponent()
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Game1::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
@@ -131,11 +131,6 @@ namespace POSGames {
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"posgames_multisize.ico")));
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Game1";
-			
-			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
-			
-			this->Location = p;
-			
 			this->TopMost = true;
 			this->Text = L"Game1";
 			this->Load += gcnew System::EventHandler(this, &Game1::Game1_Load);
@@ -164,6 +159,8 @@ namespace POSGames {
 		}
 			
 	}
+private: System::Void Game1_Load_1(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 
 

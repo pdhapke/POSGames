@@ -17,9 +17,9 @@ namespace POSGames {
 	public ref class GoGame : public System::Windows::Forms::Form
 	{
 	public:
-		GoGame(Point p)
+		GoGame(void)
 		{
-			InitializeComponent(p);
+			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -36,21 +36,21 @@ namespace POSGames {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Panel^  panel1;
-	protected:
+	
 
 	private:
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
 		System::ComponentModel::Container ^components;
+		
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(Point p)
+		void InitializeComponent()
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(GoGame::typeid));
 			this->SuspendLayout();
@@ -64,10 +64,12 @@ namespace POSGames {
 			this->Name = L"GoGame";
 			this->Text = L"GoGame";
 			this->ResumeLayout(false);
-			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
-			this->Location = p;
+		
 
 		}
 #pragma endregion
+		void buttonRunner(System::Windows::Forms::Button^ button) {
+
+		}
 	};
 }

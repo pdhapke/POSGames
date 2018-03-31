@@ -17,9 +17,9 @@ namespace POSGames {
 	public ref class Pong : public System::Windows::Forms::Form
 	{
 	public:
-		Pong(Point p)
+		Pong(void)
 		{
-			InitializeComponent(p);
+			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -48,22 +48,18 @@ namespace POSGames {
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(Point p)
+		void InitializeComponent()
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Pong::typeid));
 			this->SuspendLayout();
 			// 
 			// Pong
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(11, 24);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(276, 236);
-			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->ClientSize = System::Drawing::Size(1477, 431);
 			this->Name = L"Pong";
 			this->Text = L"Pong";
 			this->ResumeLayout(false);
-			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
-			this->Location = p;
 
 		}
 #pragma endregion

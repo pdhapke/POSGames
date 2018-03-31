@@ -17,9 +17,9 @@ namespace POSGames {
 	public ref class ThreeCardMonte : public System::Windows::Forms::Form
 	{
 	public:
-		ThreeCardMonte(Point p)
+		ThreeCardMonte(void)
 		{
-			InitializeComponent(p);
+			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -48,7 +48,7 @@ namespace POSGames {
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(Point p)
+		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(ThreeCardMonte::typeid));
 			this->SuspendLayout();
@@ -62,8 +62,7 @@ namespace POSGames {
 			this->Name = L"ThreeCardMonte";
 			this->Text = L"ThreeCardMonte";
 			this->ResumeLayout(false);
-			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
-			this->Location = p;
+			
 
 		}
 #pragma endregion

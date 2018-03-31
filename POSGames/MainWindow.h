@@ -164,42 +164,54 @@ namespace POSGames {
 	}
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide(); 
-		POSGames::Game1 Game1WindowObject(this->Location);
+		POSGames::Game1 Game1WindowObject;
+		Game1WindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		Game1WindowObject.Location = this->Location; 
 		Game1WindowObject.ShowDialog();
 		this->Location = Game1WindowObject.Location; 
 		this->Show(); 
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
-		POSGames::GoGame GoGameWindowObject(this->Location);
+		POSGames::GoGame GoGameWindowObject;
+		GoGameWindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		GoGameWindowObject.Location = this->Location;
 		GoGameWindowObject.ShowDialog();
 		this->Location = GoGameWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
-		POSGames::Memory MemoryWindowObject(this->Location);
+		POSGames::Memory MemoryWindowObject;
+		MemoryWindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		MemoryWindowObject.Location = this->Location;
 		MemoryWindowObject.ShowDialog();
 		this->Location = MemoryWindowObject.Location; 
 		this->Show();
 	}
 	private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
-		POSGames::ThreeCardMonte ThreeCardMonteWindowObject(this->Location);
+		POSGames::ThreeCardMonte ThreeCardMonteWindowObject;
+		ThreeCardMonteWindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		ThreeCardMonteWindowObject.Location = this->Location;
 		ThreeCardMonteWindowObject.ShowDialog();
 		this->Location = ThreeCardMonteWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
-		POSGames::SpaceInvaders SpaceInvadersWindowObject(this->Location);
+		POSGames::SpaceInvaders SpaceInvadersWindowObject;
+		SpaceInvadersWindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		SpaceInvadersWindowObject.Location = this->Location;
 		SpaceInvadersWindowObject.ShowDialog();
 		this->Location = SpaceInvadersWindowObject.Location;
 		this->Show();
 	}
 	private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide();
-		POSGames::Pong PongWindowObject(this->Location);
+		POSGames::Pong PongWindowObject;
+		PongWindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
+		PongWindowObject.Location = this->Location;
 		PongWindowObject.ShowDialog();
 		this->Location = PongWindowObject.Location;
 		this->Show();

@@ -17,9 +17,9 @@ namespace POSGames {
 	public ref class Memory : public System::Windows::Forms::Form
 	{
 	public:
-		Memory(Point p)
+		Memory(void)
 		{
-			InitializeComponent(p);
+			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
 			//
@@ -48,7 +48,7 @@ namespace POSGames {
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		void InitializeComponent(Point p)
+		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Memory::typeid));
 			this->SuspendLayout();
@@ -57,13 +57,13 @@ namespace POSGames {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(11, 24);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(276, 236);
+			this->ClientSize = System::Drawing::Size(400, 400);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Memory";
 			this->Text = L"Memory";
 			this->ResumeLayout(false);
-			this->StartPosition = System::Windows::Forms::FormStartPosition::Manual;
-			this->Location = p;
+			
+			
 
 		}
 #pragma endregion

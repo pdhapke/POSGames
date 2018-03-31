@@ -156,7 +156,6 @@
     <ClInclude Include="Pong.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="SpaceInvaders.h">
       <FileType>CppForm</FileType>
     </ClInclude>
