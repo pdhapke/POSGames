@@ -128,11 +128,11 @@ namespace POSGames {
 			this->Controls->Add(this->label1);
 			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"posgames_multisize.ico")));
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"Game1";
-			this->TopMost = true;
 			this->Text = L"Game1";
+			this->TopMost = true;
 			this->Load += gcnew System::EventHandler(this, &Game1::Game1_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);

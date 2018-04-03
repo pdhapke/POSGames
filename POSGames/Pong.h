@@ -50,6 +50,7 @@ namespace POSGames {
 		/// </summary>
 		void InitializeComponent()
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Pong::typeid));
 			this->SuspendLayout();
 			// 
 			// Pong
@@ -57,6 +58,7 @@ namespace POSGames {
 			this->AutoScaleDimensions = System::Drawing::SizeF(11, 24);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1477, 431);
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Pong";
 			this->Text = L"Pong";
 			this->ResumeLayout(false);
