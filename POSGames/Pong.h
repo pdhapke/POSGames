@@ -1,4 +1,4 @@
-//to be edited by Austin Stoulil
+////to be edited by Austin Stoulil
 
 #pragma once
 #pragma comment(lib, "user32.lib")
@@ -93,21 +93,21 @@ namespace POSGames {
 
 #pragma endregion
 
-	static float px = 20;
-	static float py = 20;
-	static float cx = 776;
-	static float cy = 20;
-	static float bx = 411;
-	static float by = 117.0;
-	static const float bw = 10;
-	static const float bh = 10;
-	static float ballXMove = -.1;
-	static float ballYMove = -1;
-	bool pause = false;
+		static float px = 20;
+		static float py = 20;
+		static float cx = 776;
+		static float cy = 20;
+		static float bx = 411;
+		static float by = 117.0;
+		static const float bw = 10;
+		static const float bh = 10;
+		static float ballXMove = -.1;
+		static float ballYMove = -1;
+		bool pause = false;
 
-	System::Drawing::Rectangle rect = System::Drawing::Rectangle(px, py, 10, 50);
-	System::Drawing::Rectangle computerRect = System::Drawing::Rectangle(cx, cy, 10, 50);
-	System::Drawing::Rectangle pongBall = System::Drawing::Rectangle(bx, by, bw, bh);
+		System::Drawing::Rectangle rect = System::Drawing::Rectangle(px, py, 10, 50);
+		System::Drawing::Rectangle computerRect = System::Drawing::Rectangle(cx, cy, 10, 50);
+		System::Drawing::Rectangle pongBall = System::Drawing::Rectangle(bx, by, bw, bh);
 
 	private: void drawRect(System::Drawing::Rectangle rect, System::Drawing::Color c) {
 
@@ -121,63 +121,63 @@ namespace POSGames {
 	}
 
 	private: void Pong_KeyDown(Object^ sender, KeyPressEventArgs^ e)
-		{
+	{
 
-			if (GetAsyncKeyState(0x57)) {
+		if (GetAsyncKeyState(0x57)) {
 
-				if ((rect.Y - 5) < 0) {
+			if ((rect.Y - 5) < 0) {
 
-					Graphics^ g;
-					g = this->CreateGraphics();
-					g->Clear(Color::Black);
+				Graphics^ g;
+				g = this->CreateGraphics();
+				g->Clear(Color::Black);
 
-					rect.Y = 0;
-					drawRect(rect, System::Drawing::Color::White);
-					drawRect(computerRect, System::Drawing::Color::White);
+				rect.Y = 0;
+				drawRect(rect, System::Drawing::Color::White);
+				drawRect(computerRect, System::Drawing::Color::White);
 
-				}
-				else {
-
-					Graphics^ g;
-					g = this->CreateGraphics();
-					g->Clear(Color::Black);
-
-					rect.Y -= 5;
-					drawRect(rect, System::Drawing::Color::White);
-					drawRect(computerRect, System::Drawing::Color::White);
-
-				}
-				
 			}
+			else {
 
-			if (GetAsyncKeyState(0x53)) {
+				Graphics^ g;
+				g = this->CreateGraphics();
+				g->Clear(Color::Black);
 
-				if ((rect.Bottom + 5) > 235) {
-
-					Graphics^ g;
-					g = this->CreateGraphics();
-					g->Clear(Color::Black);
-
-					rect.Y = rect.Y;
-					drawRect(rect, System::Drawing::Color::White);
-					drawRect(computerRect, System::Drawing::Color::White);
-
-				}
-				else {
-
-					Graphics^ g;
-					g = this->CreateGraphics();
-					g->Clear(Color::Black);
-
-					rect.Y += 5;
-					drawRect(rect, System::Drawing::Color::White);
-					drawRect(computerRect, System::Drawing::Color::White);
-
-				}
+				rect.Y -= 5;
+				drawRect(rect, System::Drawing::Color::White);
+				drawRect(computerRect, System::Drawing::Color::White);
 
 			}
 
 		}
+
+		if (GetAsyncKeyState(0x53)) {
+
+			if ((rect.Bottom + 5) > 235) {
+
+				Graphics^ g;
+				g = this->CreateGraphics();
+				g->Clear(Color::Black);
+
+				rect.Y = rect.Y;
+				drawRect(rect, System::Drawing::Color::White);
+				drawRect(computerRect, System::Drawing::Color::White);
+
+			}
+			else {
+
+				Graphics^ g;
+				g = this->CreateGraphics();
+				g->Clear(Color::Black);
+
+				rect.Y += 5;
+				drawRect(rect, System::Drawing::Color::White);
+				drawRect(computerRect, System::Drawing::Color::White);
+
+			}
+
+		}
+
+	}
 
 	private: System::Void Pong_Load(System::Object^  sender, System::EventArgs^  e) {
 
