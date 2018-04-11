@@ -62,6 +62,8 @@ namespace POSGames {
 			this->Name = L"Memory";
 			this->Text = L"Memory";
 			this->ResumeLayout(false);
+			
+			
 
 		}
 #pragma endregion

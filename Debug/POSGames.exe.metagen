@@ -20,29 +20,24 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class Game1_main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Methods:
-    setConnectors(TextBox, TextBox): PrivateScope, Public, HideBySig
-    faux_main(): PrivateScope, Public, HideBySig
 Class POSGames.Pong: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.SpaceInvaders: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.ThreeCardMonte: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.Memory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.GoGame: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.Game1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
