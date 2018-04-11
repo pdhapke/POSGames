@@ -57,7 +57,6 @@ namespace POSGames {
 		void InitializeComponent()
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Pong::typeid));
-
 			this->lbl_score = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
@@ -78,17 +77,12 @@ namespace POSGames {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-
 			this->BackColor = System::Drawing::Color::Black;
 			this->ClientSize = System::Drawing::Size(806, 233);
 			this->Controls->Add(this->lbl_score);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Margin = System::Windows::Forms::Padding(2);
-
-			this->ClientSize = System::Drawing::Size(1477, 431);
-			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-
 			this->Name = L"Pong";
 			this->Text = L"Pong";
 			this->Load += gcnew System::EventHandler(this, &Pong::Pong_Load);
