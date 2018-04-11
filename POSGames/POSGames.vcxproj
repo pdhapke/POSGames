@@ -150,6 +150,9 @@
     <ClInclude Include="GoGame.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Game1_main.h" />
+    <ClInclude Include="stdinRedirect.h" />
+    <ClInclude Include="stdoutRedirect.h" />
     <ClInclude Include="Memory.h">
       <FileType>CppForm</FileType>
     </ClInclude>
