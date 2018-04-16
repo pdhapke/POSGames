@@ -74,6 +74,9 @@
     <ClInclude Include="Game1_main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="consoleWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainWindow.resx">

@@ -164,11 +164,16 @@ namespace POSGames {
 	}
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 		this->Hide(); 
+		/* //this is a prior game for testing purposes
 		POSGames::Game1 Game1WindowObject;
 		Game1WindowObject.StartPosition = System::Windows::Forms::FormStartPosition::Manual;
 		Game1WindowObject.Location = this->Location; 
 		Game1WindowObject.ShowDialog();
 		this->Location = Game1WindowObject.Location; 
+		*/
+		gcnew consoleWindow("hello.exe");
+
+
 		this->Show(); 
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {

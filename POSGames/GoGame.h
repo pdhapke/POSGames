@@ -5568,7 +5568,7 @@ private: System::Windows::Forms::Label^  label1;
 			safe_cast<CheckBox^>(sender)->Enabled = false;
 			//update the virtual board so the computer can figure out what shapes belong together
 			updateVirtualBoard(safe_cast<CheckBox^>(sender));
-			//update the appearance of the tile and change the turn counter
+			//update the appearance of the tile 
 			colorTile(safe_cast<CheckBox^>(sender));
 			//compile shapes - make lists of all the shapes and count the liberties of each
 			compileShapes();
