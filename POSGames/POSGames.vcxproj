@@ -138,13 +138,13 @@
     <ClCompile Include="Game1.cpp" />
     <ClCompile Include="GoGame.cpp" />
     <ClCompile Include="GuessMyNumber.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="POSGamesMain.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Memory.cpp" />
     <ClCompile Include="Pong.cpp" />
     <ClCompile Include="ScratchOff.cpp" />
     <ClCompile Include="SpaceInvaders.cpp" />
-    <ClCompile Include="ThreeCardMonte.cpp" />
+    <ClCompile Include="FindTheAce.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game1.h">
@@ -217,6 +217,7 @@
     <Image Include="Core_cannon.jpg" />
     <Image Include="posgames_multisize.ico" />
     <Image Include="RedAce.png" />
+    <Image Include="space.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc" />

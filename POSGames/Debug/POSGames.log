@@ -1,13 +1,2 @@
-﻿  Game1.cpp
-  GoGame.cpp
-  GuessMyNumber.cpp
-  MainWindow.cpp
-  Memory.cpp
-  Pong.cpp
-  ScratchOff.cpp
-  SpaceInvaders.cpp
-  ThreeCardMonte.cpp
-  consoleWindow.cpp
-  main.cpp
-  Generating Code...
+﻿  POSGamesMain.cpp
   POSGames.vcxproj -> D:\C++ projects-files\POSGames\Debug\POSGames.exe

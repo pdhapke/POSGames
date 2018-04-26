@@ -5177,7 +5177,8 @@ private: System::Windows::Forms::Label^  label1;
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(11, 24);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1196, 1400);
+			this->AutoSize = true;
+			this->ClientSize = System::Drawing::Size(1196, 1347);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->checkBox343);
 			this->Controls->Add(this->checkBox344);
