@@ -123,16 +123,16 @@ namespace POSGames {
 		bool pause = false;
 		int playerScore = 0;
 		int player2Score = 0;
-		int tempX = ballXMove;
-		int tempY = ballYMove;
+		int tempX = static_cast<int>(ballXMove);
+		int tempY = static_cast<int>(ballYMove);
 
 		//Player Speed Value
 		int playerSpeed = 10;
 
 		//Program creates three rectangles for the paddles and ball
-		System::Drawing::Rectangle rect = System::Drawing::Rectangle(px, py, 10, 50);
-		System::Drawing::Rectangle p2Rect = System::Drawing::Rectangle(cx, cy, 10, 50);
-		System::Drawing::Rectangle pongBall = System::Drawing::Rectangle(bx, by, bw, bh);
+		System::Drawing::Rectangle rect = System::Drawing::Rectangle(static_cast<int>(px), static_cast<int>(py), 10, 50);
+		System::Drawing::Rectangle p2Rect = System::Drawing::Rectangle(static_cast<int>(cx), static_cast<int>(cy), 10, 50);
+		System::Drawing::Rectangle pongBall = System::Drawing::Rectangle(static_cast<int>(bx), static_cast<int>(by), static_cast<int>(bw), static_cast<int>(bh));
 
 	private: void drawRect(System::Drawing::Rectangle rect, System::Drawing::Color c) {
 
@@ -348,7 +348,7 @@ namespace POSGames {
 
 				if (pongBall.X <= 0) {
 
-					pongBall.X = bx;
+					pongBall.X = static_cast<int>(bx);
 					ballXMove *= -1;
 					player2Score += 10;
 
@@ -356,7 +356,7 @@ namespace POSGames {
 
 				if (pongBall.X >= 822) {
 
-					pongBall.X = bx;
+					pongBall.X = static_cast<int>(bx);
 					ballXMove *= -1;
 					playerScore += 10;
 
@@ -376,8 +376,8 @@ namespace POSGames {
 				}
 
 				//Increment the ball position, and update the player score
-				pongBall.Y += ballYMove;
-				pongBall.X += ballXMove;
+				pongBall.Y += static_cast<int>(ballYMove);
+				pongBall.X += static_cast<int>(ballXMove);
 				lbl_score->Text = "P1 Score: " + playerScore.ToString();
 				lbl_p2Score->Text = "P2 Score: " + player2Score.ToString();
 				lbl_score->Refresh();

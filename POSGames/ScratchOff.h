@@ -100,62 +100,68 @@ namespace POSGames {
 			// option6
 			// 
 			this->option6->Location = System::Drawing::Point(480, 354);
-			this->option6->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option6->Margin = System::Windows::Forms::Padding(6);
 			this->option6->Name = L"option6";
 			this->option6->Size = System::Drawing::Size(178, 150);
 			this->option6->TabIndex = 16;
 			this->option6->Text = L"Box 6";
 			this->option6->UseVisualStyleBackColor = true;
+			this->option6->Click += gcnew System::EventHandler(this, &ScratchOff::option6_Click);
 			// 
 			// option5
 			// 
 			this->option5->Location = System::Drawing::Point(255, 354);
-			this->option5->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option5->Margin = System::Windows::Forms::Padding(6);
 			this->option5->Name = L"option5";
 			this->option5->Size = System::Drawing::Size(178, 150);
 			this->option5->TabIndex = 15;
 			this->option5->Text = L"Box 5";
 			this->option5->UseVisualStyleBackColor = true;
+			this->option5->Click += gcnew System::EventHandler(this, &ScratchOff::option5_Click);
 			// 
 			// option4
 			// 
 			this->option4->Location = System::Drawing::Point(26, 354);
-			this->option4->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option4->Margin = System::Windows::Forms::Padding(6);
 			this->option4->Name = L"option4";
 			this->option4->Size = System::Drawing::Size(178, 150);
 			this->option4->TabIndex = 14;
 			this->option4->Text = L"Box 4";
 			this->option4->UseVisualStyleBackColor = true;
+			this->option4->Click += gcnew System::EventHandler(this, &ScratchOff::option4_Click);
 			// 
 			// option3
 			// 
 			this->option3->Location = System::Drawing::Point(480, 144);
-			this->option3->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option3->Margin = System::Windows::Forms::Padding(6);
 			this->option3->Name = L"option3";
 			this->option3->Size = System::Drawing::Size(178, 150);
 			this->option3->TabIndex = 13;
 			this->option3->Text = L"Box 3";
 			this->option3->UseVisualStyleBackColor = true;
+			this->option3->Click += gcnew System::EventHandler(this, &ScratchOff::option3_Click);
 			// 
 			// option2
 			// 
 			this->option2->Location = System::Drawing::Point(255, 144);
-			this->option2->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option2->Margin = System::Windows::Forms::Padding(6);
 			this->option2->Name = L"option2";
 			this->option2->Size = System::Drawing::Size(178, 150);
 			this->option2->TabIndex = 12;
 			this->option2->Text = L"Box 2";
 			this->option2->UseVisualStyleBackColor = true;
+			this->option2->Click += gcnew System::EventHandler(this, &ScratchOff::option2_Click);
 			// 
 			// option1
 			// 
 			this->option1->Location = System::Drawing::Point(26, 144);
-			this->option1->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->option1->Margin = System::Windows::Forms::Padding(6);
 			this->option1->Name = L"option1";
 			this->option1->Size = System::Drawing::Size(178, 150);
 			this->option1->TabIndex = 11;
 			this->option1->Text = L"Box 1";
 			this->option1->UseVisualStyleBackColor = true;
+			this->option1->Click += gcnew System::EventHandler(this, &ScratchOff::option1_Click);
 			// 
 			// lblTitle
 			// 
@@ -185,17 +191,18 @@ namespace POSGames {
 			// restartBut
 			// 
 			this->restartBut->Location = System::Drawing::Point(196, 534);
-			this->restartBut->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->restartBut->Margin = System::Windows::Forms::Padding(6);
 			this->restartBut->Name = L"restartBut";
 			this->restartBut->Size = System::Drawing::Size(138, 42);
 			this->restartBut->TabIndex = 17;
 			this->restartBut->Text = L"&Restart";
 			this->restartBut->UseVisualStyleBackColor = true;
+			this->restartBut->Click += gcnew System::EventHandler(this, &ScratchOff::restartBut_Click);
 			// 
 			// btnExit
 			// 
 			this->btnExit->Location = System::Drawing::Point(363, 534);
-			this->btnExit->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->btnExit->Margin = System::Windows::Forms::Padding(6);
 			this->btnExit->Name = L"btnExit";
 			this->btnExit->Size = System::Drawing::Size(138, 42);
 			this->btnExit->TabIndex = 18;
@@ -219,7 +226,7 @@ namespace POSGames {
 			this->Controls->Add(this->lblTitle);
 			this->Controls->Add(this->Description);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Margin = System::Windows::Forms::Padding(6, 6, 6, 6);
+			this->Margin = System::Windows::Forms::Padding(6);
 			this->Name = L"ScratchOff";
 			this->Text = L"MyForm";
 			this->ResumeLayout(false);
@@ -227,7 +234,8 @@ namespace POSGames {
 
 		}
 #pragma endregion
-	private: System::Void restartBut_Click(System::Object^  sender, System::EventArgs^  e) {
+	private: 
+		System::Void restartBut_Click(System::Object^  sender, System::EventArgs^  e) {
 		option1->Text = "Box 1";
 		option2->Text = "Box 2";
 		option3->Text = "Box 3";
@@ -256,27 +264,27 @@ namespace POSGames {
 	}
 			 //End restart button
 	private: System::Void option1_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip1 = 1;
+		
 		option1->Text = "" + thing->at(0);
 	}
 	private: System::Void option2_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip2 = 1;
+		
 		option2->Text = "" + thing->at(1);
 	}
 	private: System::Void option3_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip3 = 1;
+		
 		option3->Text = "" + thing->at(2);
 	}
 	private: System::Void option4_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip4 = 1;
+		
 		option4->Text = "" + thing->at(3);
 	}
 	private: System::Void option5_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip5 = 1;
+		
 		option5->Text = "" + thing->at(4);
 	}
 	private: System::Void option6_Click(System::Object^  sender, System::EventArgs^  e) {
-		flip6 = 1;
+		
 		option6->Text = "" + thing->at(5);
 	}
 	private: System::Void btnExit_Click(System::Object^  sender, System::EventArgs^  e) {

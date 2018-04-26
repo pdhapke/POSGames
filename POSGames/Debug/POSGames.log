@@ -1,123 +1,13 @@
 ﻿  Game1.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   GoGame.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   GuessMyNumber.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   MainWindow.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Memory.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Pong.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   ScratchOff.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   SpaceInvaders.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   ThreeCardMonte.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   consoleWindow.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   main.cpp
-d:\c++ projects-files\posgames\posgames\pong.h(126): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(127): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(135): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(359): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(379): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-d:\c++ projects-files\posgames\posgames\pong.h(380): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Generating Code...
   POSGames.vcxproj -> D:\C++ projects-files\POSGames\Debug\POSGames.exe
