@@ -3,18 +3,28 @@
 using namespace System;
 using namespace System::Diagnostics;
 
-ref class consoleWindow{
+
+
+ref class consoleWindow: public Process{
 	public:
-	Process ^p;
 	ProcessStartInfo ^pInfo;
-	System::String ^  file; 
+	System::String^  file; 
 	consoleWindow(std::string fileToOpen) {
 		pInfo = gcnew ProcessStartInfo();
 		file = gcnew System::String(fileToOpen.c_str());
+		
 		pInfo->Verb = "open";
 		pInfo->FileName = file;
 		pInfo->UseShellExecute = true;
-		p = Process::Start(pInfo);
+		this->Start(pInfo);
+		this->EnableRaisingEvents = true; 
+		
+		
+		
 	}
+	
 
 };
+
+
+

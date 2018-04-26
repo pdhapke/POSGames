@@ -1,10 +1,12 @@
   POSGames.Game1.resources - Embedded, ContainedInManifestFile, 
   POSGames.GoGame.resources - Embedded, ContainedInManifestFile, 
+  POSGames.GuessMyNumber.resources - Embedded, ContainedInManifestFile, 
   POSGames.MainWindow.resources - Embedded, ContainedInManifestFile, 
   POSGames.Memory.resources - Embedded, ContainedInManifestFile, 
   POSGames.Pong.resources - Embedded, ContainedInManifestFile, 
+  POSGames.ScratchOff.resources - Embedded, ContainedInManifestFile, 
   POSGames.SpaceInvaders.resources - Embedded, ContainedInManifestFile, 
-  POSGames.ThreeCardMonte.resources - Embedded, ContainedInManifestFile, 
+  POSGames.FindTheAce.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly POSGames, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -28,10 +30,16 @@ Class Game1_main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class POSGames.Pong: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POSGames.GuessMyNumber: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POSGames.ScratchOff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.SpaceInvaders: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POSGames.ThreeCardMonte: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class POSGames.FindTheAce: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POSGames.Memory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

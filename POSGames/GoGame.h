@@ -5,6 +5,7 @@
 #include <list>
 #include <iostream>
 
+
 struct Coordinates {
 	int x; 
 	int y; 
@@ -41,6 +42,8 @@ namespace POSGames {
 			//
 			//TODO: Add the constructor code here
 			//
+			
+
 			
 
 
@@ -801,11 +804,13 @@ namespace POSGames {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
+
 		System::ComponentModel::Container ^components;
 		System::Collections::Generic::List<System::Windows::Forms::CheckBox ^>^ board = gcnew System::Collections::Generic::List<System::Windows::Forms::CheckBox ^>();
 		std::vector<Coordinates> *virtualBoard = new std::vector<Coordinates>(); 
 		std::vector<Shape> *shapesList = new std::vector<Shape>(); 
-
+		
+		
 private: System::Windows::Forms::Label^  label1;
 		 char turn = 'b';
 #pragma region Windows Form Designer generated code
@@ -5172,7 +5177,7 @@ private: System::Windows::Forms::Label^  label1;
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(11, 24);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1254, 1352);
+			this->ClientSize = System::Drawing::Size(1196, 1400);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->checkBox343);
 			this->Controls->Add(this->checkBox344);

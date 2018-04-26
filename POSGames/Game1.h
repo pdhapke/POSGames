@@ -99,7 +99,7 @@ namespace POSGames {
 			this->textBox2->Size = System::Drawing::Size(409, 34);
 			this->textBox2->TabIndex = 2;
 			this->textBox2->TextChanged += gcnew System::EventHandler(this, &Game1::textBox2_TextChanged);
-			this->textBox2->KeyDown += gcnew System::Windows::Forms::KeyEventHandler(this, &Game1::textBox2_KeyDown);
+			
 			// 
 			// label2
 			// 
@@ -126,7 +126,8 @@ namespace POSGames {
 			this->Name = L"Game1";
 			this->Text = L"Game1";
 			this->TopMost = true;
-			this->Shown += gcnew System::EventHandler(this, &Game1::Game1_Shown);
+			
+			
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -161,6 +162,8 @@ namespace POSGames {
 		Thread^ main_function = gcnew Thread(gcnew ThreadStart(main_container, &Game1_main::faux_main));
 		main_function->Start();
 	}
+private: System::Void Game1_FormClosing(System::Object^  sender, System::Windows::Forms::FormClosingEventArgs^  e) {
+}
 };
 
 
