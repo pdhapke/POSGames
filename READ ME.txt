@@ -1,0 +1,9 @@
+This archive contains all the files needed to run the Space Time groups project
+
+All the documents are in the GROUP REPORTS folder
+
+The program is contained in the PRECOMPILED -Runnable folder
+
+The source code is contained in the POSGames folder
+
+If trying to compile and run the program it will have errors unless the assosicated minigame exe files are in the same folder, so these exe files are contained in the source code for debugging compilation purposes and they are contained in the precompiled folder to make it easier to run the program. As much of the visual studio setup is included as possible but does increase the filesize dramitically. 

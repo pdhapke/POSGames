@@ -208,7 +208,7 @@ void colorMemory(){
 	
 	//memoryStore[loop - 1] = getColor;
 	while(!error){
-		cout << getColor << endl;
+		//cout << getColor << endl;
 		if (getColor == 4){
 			getColor = 3;
 		}		
